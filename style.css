@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.dark-bg {
+  background: linear-gradient(rgba(20, 20, 20, 0.7), rgba(20, 20, 20, 0.7));
+}
+
+.container {
+  text-align: center;
+}
+
+.hide-element {
+  display: none;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+button {
+  background: royalblue;
+  padding: 5px;
+  height: 55px;
+  width: 140px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 1rem;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.icon {
+  color: white;
+  padding-left: 3px;
+}
+
+.contact-details {
+  background: white;
+  padding: 4rem;
+}
+
+.contact-details h1 {
+  padding-bottom: 1.4rem;
+}
+
+#close-btn {
+  margin-top: 1rem;
+}
